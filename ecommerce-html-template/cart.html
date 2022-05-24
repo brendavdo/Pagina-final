@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>🤍 Detalles de tus Nishitas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="eCommerce HTML Template Free Download" name="keywords">
+    <meta content="eCommerce HTML Template Free Download" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top bar Start -->
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <i class="fa fa-envelope"></i>
+                    Nishitas@hotmail.com
+                </div>
+                <div class="col-sm-6">
+                    <i class="fa fa-phone-alt"></i>
+                    +5523782376
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="product-list.html" class="nav-item nav-link">Productos</a>
+                        <a href="my-account.html" class="nav-item nav-link">Blog</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.jpg" alt="Logo" width="150px">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Busquedas">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user">
+                        <a href="wishlist.html" class="btn wishlist">
+                            <i class="fa fa-heart"></i>
+                            <span>(5)</span>
+                        </a>
+                        <a href="cart.html" class="btn cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>(12)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Breadcrumb Start -->
+    <div class="breadcrumb-wrap">
+        <div class="container-fluid">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="product-list.html">Productos</a></li>
+                <li class="breadcrumb-item active">Carrito</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Cart Start -->
+    <div class="cart-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="cart-page-inner">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Producto</th>
+                                        <th>Precio</th>
+                                        <th>Cantidad</th>
+                                        <th>Total</th>
+                                        <th>Eliminar</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="align-middle">
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/fresa.jpeg" alt="Image"></a>
+                                                <p>fresa</p>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$40</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/poke.jpg" alt="Image"></a>
+                                                <p>bulbasaur</p>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/mar.jpg" alt="Image"></a>
+                                                <p>magikarp</p>
+                                            </div>
+                                        </td>
+                                        <td>$130</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$130</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/pika.jpg" alt="Image"></a>
+                                                <p>pikachu</p>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/polllito.jpg"
+                                                        alt="Image"></a>
+                                                <p>polllito</p>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/pollo2.jpg" alt="Image"></a>
+                                                <p>pollo</p>
+                                            </div>
+                                        </td>
+                                        <td>$90</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$90</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="index.html"><img src="img/pollo.jpg" alt="Image"></a>
+                                                <p>gallina</p>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="index.html"><img src="img/anya.jpg" alt="Image"></a>
+                                                <p>Anya</p>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="index.html"><img src="img/bt21.jpg" alt="Image"></a>
+                                                <p>bt21</p>
+                                            </div>
+                                        </td>
+                                        <td>$120</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$120</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="product-detail.html"><img src="img/panecitos.jpeg"
+                                                        alt="Image"></a>
+                                                <p>Panecitos</p>
+                                            </div>
+                                        </td>
+                                        <td>$160</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$80</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="index.html"><img src="img/vaso.jpg" alt="Image"></a>
+                                                <p>Starbuck</p>
+                                            </div>
+                                        </td>
+                                        <td>$100</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$100</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img">
+                                                <a href="index.html"><img src="img/taco.jpg" alt="Image"></a>
+                                                <p>Bananasaurio</p>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td>
+                                            <div class="qty">
+                                                <button class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="text" value="1">
+                                                <button class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </td>
+                                        <td>$110</td>
+                                        <td><button><i class="fa fa-trash"></i></button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cart-page-inner">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="coupon">
+                                    <input type="text" placeholder="Codigo del cupón">
+                                    <button>Aplicar Codigó</button>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="cart-summary">
+                                    <div class="cart-content">
+                                        <h1>Resumen de la compra</h1>
+                                        <p>Sub Total<span>$1,130</span></p>
+                                        <p>Costo de envío<span>$50</span></p>
+                                        <h2>Total<span>$1,180</span></h2>
+                                    </div>
+                                    <!-- <div class="cart-btn">
+                                        <button>Seguir comprando</button>
+                                        <button>Continuar</button>
+                                    </div> -->
+                                    <div class="cart-btn">
+                                        <br> <a class="button" href="product-list.html">Seguir
+                                            comprando</a>&nbsp &nbsp
+                                        &nbsp &nbsp &nbsp
+                                        <span><a class="button" href="#">Continuar</a></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3><b>Contacto</b></h3>
+                        <div class="contact-info">
+                            <p><i class="fa fa-envelope"></i>Nishitas@hotmail.com</p>
+                            <p><i class="fa fa-phone"></i>+5523782376</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3>
+                            <b>
+                                Siguenos en
+                                </h2>
+                            </b>
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href="https://www.facebook.com/Nishitas-Cuties-102487815776180"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/nishitascutiess/"><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3>
+                            <b>Informacion de la compañia
+                        </h3>
+                        </b>
+                        <ul>
+                            <li><a href="#">Sobre nosotros</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h3>
+                            <b>Nosotros aceptamos</b>
+                        </h3>
+                        <ul>
+                            <div class="payment-method">
+                                <img src="img/payment-method.png" alt="Payment Method" />
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+        <div class="row payment align-items-center">
+            <div class="col-md-6">
+                
+            </div>
+
+        </div> -->
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer Bottom Start -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 copyright">
+                    <p>Copyright &copy; <a href="#">Nishitas </a>. All Rights Reserved</p>
+                </div>
+
+                <div class="col-md-6 template-by">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
